@@ -63,10 +63,10 @@ public class Calculadora {
     * @exception ArithmeticException por 0
     */
    public int divide0() {		   
-	   if(num2 == 0)
-	      throw new java.lang.ArithmeticException("División por 0");
+	   if(num2 == 0) // si el divisor es 0
+	      throw new java.lang.ArithmeticException("División por 0"); // lanza excepción
 	   else{
-	      int resul= num1 / num2;
+	      int resul= num1 / num2; // realiza la división
 	      return resul;
 	   } 
 	}
