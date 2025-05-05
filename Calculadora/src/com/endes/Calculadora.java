@@ -67,7 +67,7 @@ public class Calculadora {
 	      throw new java.lang.ArithmeticException("División por 0"); // lanza excepción
 	   else{
 	      int resul= num1 / num2; // realiza la división
-	      return resul;
+	      return resul; // devuelve el resultado
 	   } 
 	}
 }
